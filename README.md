@@ -73,7 +73,7 @@ cd facial-expression-rec/
 docker build -t fer .
 ```
 
-If you want to use the same model we have trained and used please get in touch. Otherwise, add your model to `./facial-expression-rec/` and adapt the code inside `./facial-expression-rec/fer.py` according to your models output format and file name.  
+If you want to use your own model, add it to `./facial-expression-rec/` and adapt the code inside `./facial-expression-rec/fer.py` according to your models output format and file name.  
 
 ### build SER
 ```
